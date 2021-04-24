@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"f446_3_phase_controller\startup_stm32f446xx.o"
+"f446_3_phase_controller\main.o"
+"f446_3_phase_controller\stm32f4xx_it.o"
+"f446_3_phase_controller\stm32f4xx_hal_msp.o"
+"f446_3_phase_controller\stm32f4xx_hal_adc.o"
+"f446_3_phase_controller\stm32f4xx_hal_adc_ex.o"
+"f446_3_phase_controller\stm32f4xx_hal_rcc.o"
+"f446_3_phase_controller\stm32f4xx_hal_rcc_ex.o"
+"f446_3_phase_controller\stm32f4xx_hal_flash.o"
+"f446_3_phase_controller\stm32f4xx_hal_flash_ex.o"
+"f446_3_phase_controller\stm32f4xx_hal_flash_ramfunc.o"
+"f446_3_phase_controller\stm32f4xx_hal_gpio.o"
+"f446_3_phase_controller\stm32f4xx_hal_dma_ex.o"
+"f446_3_phase_controller\stm32f4xx_hal_dma.o"
+"f446_3_phase_controller\stm32f4xx_hal_pwr.o"
+"f446_3_phase_controller\stm32f4xx_hal_pwr_ex.o"
+"f446_3_phase_controller\stm32f4xx_hal_cortex.o"
+"f446_3_phase_controller\stm32f4xx_hal.o"
+"f446_3_phase_controller\stm32f4xx_hal_exti.o"
+"f446_3_phase_controller\stm32f4xx_hal_tim.o"
+"f446_3_phase_controller\stm32f4xx_hal_tim_ex.o"
+"f446_3_phase_controller\stm32f4xx_hal_uart.o"
+"f446_3_phase_controller\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "F446_3_Phase_Controller\F446_3_Phase_Controller.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F446_3_Phase_Controller.map" -o F446_3_Phase_Controller\F446_3_Phase_Controller.axf
