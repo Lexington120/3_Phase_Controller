@@ -1,6 +1,11 @@
 # Directories to ignore
 /Reference_Material/
+Reference_Material
+**/Reference_Material
 
+# Ignoring test file
 *~
-
 test~.txt
+
+# Ignoring PDFs
+*.PDF
