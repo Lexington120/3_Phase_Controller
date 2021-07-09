@@ -181,7 +181,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tps65020.pdf</description>
 <smd name="22" x="1.75" y="-3.4" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R270" thermals="no" cream="no"/>
 <smd name="23" x="2.25" y="-3.4" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R270" thermals="no" cream="no"/>
 <smd name="24" x="2.75" y="-3.4" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R270" thermals="no" cream="no"/>
-<smd name="10" x="-3.4" y="-1.75" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R180" stop="no" cream="no"/>
+<smd name="10" x="-3.4" y="-1.75" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R180" cream="no"/>
 <smd name="11" x="-3.4" y="-2.25" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R180" thermals="no" cream="no"/>
 <smd name="9" x="-3.4" y="-1.25" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R180" thermals="no" cream="no"/>
 <smd name="8" x="-3.4" y="-0.75" dx="0.6" dy="0.24" layer="1" roundness="50" rot="R180" thermals="no" cream="no"/>

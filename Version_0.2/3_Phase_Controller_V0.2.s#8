@@ -540,9 +540,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps65020.pdf</description>
 <package name="STANDOFF">
 <pad name="P$1" x="0" y="0" drill="3" shape="octagon"/>
 </package>
-<package name="HOLE_V_0.1">
-<pad name="PHASE" x="0" y="0" drill="1" diameter="1.778"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="2X14" urn="urn:adsk.eagle:package:22426/2" type="model">
@@ -898,21 +895,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps65020.pdf</description>
 </gates>
 <devices>
 <device name="" package="STANDOFF">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PHASE_HOLE_V_0.1">
-<gates>
-<gate name="G$1" symbol="HOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HOLE_V_0.1">
-<connects>
-<connect gate="G$1" pin="PHASE" pad="PHASE"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13207,7 +13189,6 @@ Grid 5.00 mm&lt;p&gt;
 <part name="U$4" library="Brad_Library" deviceset="STANDOFF" device=""/>
 <part name="U$5" library="Brad_Library" deviceset="STANDOFF" device=""/>
 <part name="U$2" library="Brad_Library" deviceset="STANDOFF" device=""/>
-<part name="U$6" library="Brad_Library" deviceset="PHASE_HOLE_V_0.1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13407,7 +13388,6 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="U$4" gate="G$1" x="205.74" y="91.44" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="198.12" y="83.82" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="205.74" y="83.82" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="58.5" y="89" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -14239,13 +14219,6 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="170.18" y1="124.46" x2="170.18" y2="127" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="PHASE"/>
-<wire x1="55.96" y1="89" x2="51.5" y2="89" width="0.1524" layer="91"/>
-<wire x1="51.5" y1="89" x2="51.5" y2="93.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

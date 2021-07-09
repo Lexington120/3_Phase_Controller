@@ -7039,21 +7039,19 @@ Source: cc2540.txt</description>
 </deviceset>
 <deviceset name="DRV8353RH">
 <gates>
-<gate name="G$1" symbol="DRV8323R" x="0" y="0"/>
+<gate name="G$1" symbol="DRV8353R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="VQFN-RGZ0048A">
 <connects>
-<connect gate="G$1" pin="AGND" pad="35"/>
-<connect gate="G$1" pin="BGND" pad="43"/>
-<connect gate="G$1" pin="CAL" pad="34"/>
-<connect gate="G$1" pin="CB" pad="44"/>
+<connect gate="G$1" pin="AGND" pad="27"/>
+<connect gate="G$1" pin="BST" pad="45"/>
 <connect gate="G$1" pin="CPH" pad="4"/>
 <connect gate="G$1" pin="CPL" pad="3"/>
-<connect gate="G$1" pin="DGND" pad="27"/>
-<connect gate="G$1" pin="DVDD" pad="36"/>
+<connect gate="G$1" pin="DGND" pad="41"/>
+<connect gate="G$1" pin="DVDD" pad="40"/>
 <connect gate="G$1" pin="ENABLE" pad="33"/>
-<connect gate="G$1" pin="FB" pad="1"/>
+<connect gate="G$1" pin="FB" pad="48"/>
 <connect gate="G$1" pin="GAIN" pad="32"/>
 <connect gate="G$1" pin="GHA" pad="8"/>
 <connect gate="G$1" pin="GHB" pad="17"/>
@@ -7063,17 +7061,17 @@ Source: cc2540.txt</description>
 <connect gate="G$1" pin="GLC" pad="20"/>
 <connect gate="G$1" pin="GND" pad="GND_PAD"/>
 <connect gate="G$1" pin="IDRIVE" pad="30"/>
-<connect gate="G$1" pin="INHA" pad="37"/>
-<connect gate="G$1" pin="INHB" pad="39"/>
-<connect gate="G$1" pin="INHC" pad="41"/>
-<connect gate="G$1" pin="INLA" pad="38"/>
-<connect gate="G$1" pin="INLB" pad="40"/>
-<connect gate="G$1" pin="INLC" pad="42"/>
+<connect gate="G$1" pin="INHA" pad="34"/>
+<connect gate="G$1" pin="INHB" pad="36"/>
+<connect gate="G$1" pin="INHC" pad="38"/>
+<connect gate="G$1" pin="INLA" pad="35"/>
+<connect gate="G$1" pin="INLB" pad="37"/>
+<connect gate="G$1" pin="INLC" pad="39"/>
 <connect gate="G$1" pin="MODE" pad="29"/>
-<connect gate="G$1" pin="NC" pad="46"/>
 <connect gate="G$1" pin="N_FAULT" pad="28"/>
-<connect gate="G$1" pin="N_SHDN" pad="48"/>
-<connect gate="G$1" pin="PGND" pad="2"/>
+<connect gate="G$1" pin="PGND" pad="1"/>
+<connect gate="G$1" pin="RCL" pad="46"/>
+<connect gate="G$1" pin="RT/SD" pad="47"/>
 <connect gate="G$1" pin="SHA" pad="9"/>
 <connect gate="G$1" pin="SHB" pad="16"/>
 <connect gate="G$1" pin="SHC" pad="19"/>
@@ -7086,12 +7084,14 @@ Source: cc2540.txt</description>
 <connect gate="G$1" pin="SPA" pad="11"/>
 <connect gate="G$1" pin="SPB" pad="14"/>
 <connect gate="G$1" pin="SPC" pad="21"/>
-<connect gate="G$1" pin="SW" pad="45"/>
-<connect gate="G$1" pin="VCP" pad="5"/>
-<connect gate="G$1" pin="VDRAIN" pad="7"/>
+<connect gate="G$1" pin="SW" pad="42"/>
+<connect gate="G$1" pin="VCC" pad="44"/>
+<connect gate="G$1" pin="VCP" pad="7"/>
+<connect gate="G$1" pin="VDRAIN" pad="6"/>
 <connect gate="G$1" pin="VDS" pad="31"/>
-<connect gate="G$1" pin="VIN" pad="47"/>
-<connect gate="G$1" pin="VM" pad="6"/>
+<connect gate="G$1" pin="VGLS" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="43"/>
+<connect gate="G$1" pin="VM" pad="5"/>
 <connect gate="G$1" pin="VREF" pad="26"/>
 </connects>
 <technologies>

@@ -538,7 +538,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tps65020.pdf</description>
 <rectangle x1="16.129" y1="-5.461" x2="16.891" y2="-4.699" layer="21"/>
 </package>
 <package name="STANDOFF">
-<pad name="P$1" x="0" y="0" drill="3" shape="octagon"/>
+<pad name="P$1" x="0" y="0" drill="3.1" shape="octagon"/>
 </package>
 <package name="R2512" urn="urn:adsk.eagle:footprint:23055/1" locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
